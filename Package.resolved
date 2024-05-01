@@ -3,7 +3,7 @@
     {
       "identity" : "handyjson",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/huhui1/HandyJSON.git",
+      "location" : "https://github.com/AlexMzrk/HandyJSON.git",
       "state" : {
         "branch" : "master",
         "revision" : "58fc08ae53f0eb4d83e2f85b2d6118d000b1a726"
