@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -12,8 +12,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/daltoniam/Starscream.git", .exact("3.0.6")),
-        .package(url: "https://github.com/alibaba/HandyJSON.git", .exact("5.0.2")),
+        .package(url: "https://github.com/daltoniam/Starscream.git", exact: "3.0.6"),
+        .package(url: "https://github.com/AlexMzrk/HandyJSON.git", branch: "master")
         ],
     targets: [
         .target(
