@@ -3,7 +3,7 @@
     {
       "identity" : "handyjson",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AlexMzrk/HandyJSON.git",
+      "location" : "https://github.com/Miles-Matheson/HandyJSON.git",
       "state" : {
         "branch" : "master",
         "revision" : "58fc08ae53f0eb4d83e2f85b2d6118d000b1a726"
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/daltoniam/Starscream.git",
       "state" : {
-        "revision" : "a063fda2b8145a231953c20e7a646be254365396",
-        "version" : "3.1.2"
+        "revision" : "ebdc260ea64e68f7569c62e8744b5cd15d3a49d6",
+        "version" : "3.0.6"
       }
     }
   ],
