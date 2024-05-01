@@ -21,7 +21,7 @@ let package = Package(
             dependencies: [
                 "Starscream",
                 "HandyJSON"
-                ], swiftSettings: [.unsafeFlags(["-no-whole-module-optimization", "-Onone"])])
+                ])
         ,
         .target(
             name: "Main",
