@@ -21,12 +21,13 @@ let package = Package(
             dependencies: [
                 "Starscream",
                 "HandyJSON"
-                ]),
+                ], swiftSettings: [.unsafeFlags(["-no-whole-module-optimization", "-Onone"])])
+        ,
         .target(
             name: "Main",
             dependencies: [
                 "ScClient",
-                ]),
+                ], swiftSettings: [.unsafeFlags(["-no-whole-module-optimization", "-Onone"])]),
         .testTarget(
             name: "ScClientTests",
             dependencies: ["ScClient"])
