@@ -26,8 +26,8 @@ let package = Package(
         .target(
             name: "Main",
             dependencies: [
-                "ScClient",
-                ], swiftSettings: [.unsafeFlags(["-no-whole-module-optimization", "-Onone"])]),
+                "ScClient"
+            ]),
         .testTarget(
             name: "ScClientTests",
             dependencies: ["ScClient"])
